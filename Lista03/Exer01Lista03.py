@@ -1,10 +1,5 @@
 menorIdadeFem = 150
-quantFem = 0
-quantExpFem = 0
-quantMasc = 0
-quantExpMasc = 0
-quantIdadeMasc = 0
-somaIdadeMasc = 0
+quantFem = quantExpFem = quantMasc = quantExpMasc = quantIdadeMasc = somaIdadeMasc = 0
 while True:
     idade = int(input("Digite a sua idade\n"))
     if(idade == 0):
@@ -25,11 +20,15 @@ while True:
             quantExpMasc = quantExpMasc + 1
         if(idade >= 45):
             quantIdadeMasc = quantIdadeMasc + 1
+if somaIdadeMasc != 0 and quantExpMasc != 0:
+    media = somaIdadeMasc / quantExpMasc
+else:
+    media = 0
 if(quantFem == 0):
     menorIdadeFem = 0
 print("O número de candidatos do sexo feminino:",quantFem,"\n")
 print("O número de candidatos do sexo masculino:",quantMasc,"\n")
-print("A idade média dos homens que já tem experiência no serviço:",somaIdadeMasc / quantExpMasc,"\n")
+print("A idade média dos homens que já tem experiência no serviço:",media,"\n")
 print("A porcentagem dos homens com mais de 45 anos entre o total dos homens:",quantIdadeMasc,"\n")
 print("O número de mulheres com idade inferior a 21 anos e com experiência no serviço:",quantExpFem,"\n")
 print("A menor idade entre as mulheres que já tem experiência no serviço:",menorIdadeFem,"\n")
