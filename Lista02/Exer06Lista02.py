@@ -1,3 +1,7 @@
+# Questão 6. Faça um programa para calcular e exibir o desconto na compra do cliente, 
+# conforme o valor da compra do mesmo digitado pelo usuário (incluindo centavos – 
+# cuidado com o uso do tipo de dados correto).
+
 valor = float(input("Digite o valor da compra\n"))
 if valor <= 50.00:
     valor = valor * 0.05

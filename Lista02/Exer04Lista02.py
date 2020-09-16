@@ -1,3 +1,6 @@
+# Questão 4. Faça um programa para calcular e exibir o desconto de IR conforme o valor do 
+# salário digitado pelo usuário (incluindo centavos – cuidado com o uso do tipo de dados correto).
+
 valor = float(input("Digite o salário\n"))
 if valor <= 1250.00:
     valor = 0

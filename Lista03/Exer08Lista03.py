@@ -1,3 +1,7 @@
+# Questão 8. Faça um programa que leia valores positivos inteiros até que um valor 
+# negativo seja informado. Ao final devem ser apresentados o maior e o menor 
+# valores informados pelo usuário.
+
 maior = menor = contador = 0
 while True:
     valor = int(input("Digite um valor\n"))

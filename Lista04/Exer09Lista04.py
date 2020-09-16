@@ -1,3 +1,10 @@
+# Questão 9. Elabore um programa que efetue a leitura de quatro notas reais, 
+# adicione-as a uma lista e mostre-as, inclusive a média aritmética, arredondar 
+# duas casas decimais. Verifique e exiba as devidas mensagens se o aluno está 
+# aprovado ou não, considerando que a média de aprovação é maior ou igual a 7.0, 
+# e em prova exame, se média aritmética entre 4.0 e menor que 7.0. 
+# E reprovado, se menor que 4.0.
+
 lista = []
 soma = 0
 for i in range(4):

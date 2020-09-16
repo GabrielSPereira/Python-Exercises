@@ -1,3 +1,6 @@
+# Questão 17. Elabore um programa que calcule e exiba quantas notas de 50, 10 e 1 
+# são necessárias para se pagar uma conta cujo valor é fornecido.
+
 valor = int(input("Digite o valor à ser pago\n"))
 if(valor >= 50):
     quant50 = valor // 50
@@ -7,5 +10,4 @@ if(valor >= 50):
         valor = valor - (quant10 * 10)
         if(valor < 10):
             quant1 = valor
-print("Precisa de",quant50,"notas de 50, além de",quant10,"notas de 10 e",quant1,"notas de 1.")
-            
+print("Precisa de",quant50,"notas de 50, além de",quant10,"notas de 10 e",quant1,"notas de 1.")            

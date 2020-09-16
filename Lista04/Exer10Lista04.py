@@ -1,3 +1,6 @@
+# Questão 10. Faça um programa que leia uma lista com dez caracteres, 
+# e diga quantas consoantes foram lidas. Imprima as consoantes.
+
 vogais = ['a','e','i','o','u']
 lista = []
 j = 0

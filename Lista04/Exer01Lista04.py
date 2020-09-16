@@ -1,3 +1,7 @@
+# Questão 1. Elabore um programa que efetue a leitura de duas strings e informe o 
+# seu conteúdo, seguido de seu compri- mento. Indique também se as duas strings 
+# possuem o mesmo comprimento e se são iguais ou diferentes no conteúdo.
+
 dicionario = {}
 for i in range(2):
     palavra = input("Digite uma palavra\n")

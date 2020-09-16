@@ -1,3 +1,6 @@
+# Questão 2. Faça um programa que receba três notas e seus respectivos pesos, 
+# calcule e mostre a média ponderada dessas notas. Exiba, as notas, seus respectivos pesos e a média.
+
 N1 = float(input("Digite a nota 1\n"))
 P1 = int(input("Digite o peso 1\n"))
 N2 = float(input("Digite a nota 2\n"))

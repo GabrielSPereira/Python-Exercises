@@ -1,3 +1,6 @@
+# Questão 3. Faça um programa que receba o número sorteado por um dado em vinte jogadas. 
+# Exibir os números sorteados e a frequência com que cada um aparece.
+
 sorteioUm = 0
 sorteioDois = 0
 sorteioTres = 0

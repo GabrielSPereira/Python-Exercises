@@ -1,3 +1,7 @@
+# Questão 8. Faça um programa para calcular e exibir a quantidade de parcelas sem juros 
+# e o valor de cada parcela, conforme o valor da compra digitado pelo usuário (incluindo 
+# centavos – cuidado com o uso do tipo de dados correto).
+
 valor = float(input("Digite o valor da compra\n"))
 if valor <= 100.00:
     valor = valor / 2

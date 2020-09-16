@@ -1,3 +1,7 @@
+# Questão 11. Faça um programa que leia 15 números inteiros e armazene-os 
+# em uma lista NUMEROS. Armazene os números pares na lista PAR e os números 
+# ímpares na lista IMPAR. Imprima os três vetores.
+
 numeros = []
 par = []
 impar = []

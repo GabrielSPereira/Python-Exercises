@@ -1,3 +1,5 @@
+# Questão 10. Faça um programa para calcular e exibir a categoria do nadador, dado a sua idade.
+
 idade = int(input("Digite a sua idade\n"))
 if idade >= 5 and idade < 8:
     categoria = "Infantil A"

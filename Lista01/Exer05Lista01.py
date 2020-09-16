@@ -1,3 +1,10 @@
+# Questão 5. Faça um programa que receba um número positivo e maior que zero, calcule e mostre:
+# --- O número digitado ao quadrado;
+# --- O número digitado ao cubo;
+# --- A raiz quadrada do número digitado;
+# --- A raiz cúbica do número digitado;
+# --- A soma do quadrado mais o cubo do número digitado.
+
 num = float(input("Digite um número positivo\n"))
 if(num > 0):
     quadrado = num ** 2

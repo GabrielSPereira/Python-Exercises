@@ -1,3 +1,6 @@
+# Questão 17. Faça um programa que calcule o IMC de uma pessoa (IMC = massa em kg / 
+# altura em metros elevado ao quadrado) e informe a sua classificação segundo a tabela a seguir:
+
 massa = float(input("Digite a sua massa\n"))
 altura = float(input("Digite a sua altura\n"))
 imc = massa / (altura * altura)
